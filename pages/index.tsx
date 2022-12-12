@@ -5,7 +5,7 @@ import Hero from '../components/Hero'
 
 export default function Home() {
   return (
-    <div>
+    <div className='bg-[#495e57] h-screen'>
       <Head>
         <title>Little Lemon</title>
         <meta name="og:title" content="Little Lemon Restaurant"/>
