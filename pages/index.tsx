@@ -1,10 +1,11 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Header from '../components/Header'
+import Hero from '../components/Hero'
+
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Little Lemon</title>
         <meta name="og:title" content="Little Lemon Restaurant"/>
@@ -14,10 +15,13 @@ export default function Home() {
       </Head>
 
 
-      {/* Header */}
+      {/* Nav Menu */}
+      <Header/>
 
-      {/* Home */}
-
+      {/* Hero Home Page with logo */}
+      <section id='hero'>
+        <Hero />
+      </section>
       {/* Menu */}
 
       {/* Book */}
